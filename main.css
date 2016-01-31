@@ -101,3 +101,13 @@ body{
   font-weight:bold;
   font-size: 32px;
 }
+
+/*browse shoes*/
+.shoes h4{
+  background:#331C35;
+  color:#fff;
+  padding:8px;
+}
+.shoes img{
+  margin-top:25px;
+}
