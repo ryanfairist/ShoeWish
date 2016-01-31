@@ -1,0 +1,88 @@
+.container {
+  max-width: 1000px;
+}
+body{
+  color:#331C35;
+}
+
+
+.header {
+  background-color: #000;
+  color:#fff;
+}
+
+.header h1 {
+  font-family: 'Satisfy', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: #fff;
+  margin: 0;
+  margin-top:16px;
+}
+
+.notification {
+  position: relative;
+  text-align: right;
+  z-index:10000;
+}
+
+.notification p {
+  padding: 10px 0;
+  color:#fff;
+  margin-top:16px;
+}
+.notification p:hover {
+  padding: 10px 0;
+  color:#fff;
+  font-weight:bold;
+}
+
+
+.notification-menu {
+  position: absolute;
+  top: 50px;
+  left: -75px;
+  background-color: #331C35;
+  border: #331C35;
+  padding: 10px;
+  list-style: none;
+  width: 150px;
+  display: none;
+  text-align: left;
+}
+
+.notification-menu li {
+  background-color: #fff;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.notification-menu .avatar {
+  padding: 2px 0;
+}
+
+.notification-menu h3 {
+  font-size: 15px;
+  margin: 0 0 5px 0;
+  display: inline;
+}
+
+.notification-menu p {
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.notification-menu a{
+  color:#331C35;
+  text-decoration:none;
+}
+.notification-menu a:hover{
+  color:#948F9B;
+}
+
+
+/*carousel*/
+
+.item h1{
+  font-family:'Satisfy', sans-serif; 
+}
