@@ -40,11 +40,10 @@
 			                <li>
 			                  <h3><a href="http://www.thehotline.org" target="_blank">Sandles</a></h3>
 			                </li>
-			              </ul>
+			             </ul>
 			            </div>
-				         </div>
-
 				       </div>
+				      </div>
 				     </div>
 				   </div>
 
@@ -170,6 +169,31 @@
 				<div class="col-sm-3">
 					<img class= 'img-responsive' src="http://i1382.photobucket.com/albums/ah266/ryanfairist/tennis%200_zpsviwvbdoe.jpg" alt= "blue tennis shoes"/>
 					<p>Dance Party</p>
+
+
+
+
+<!--bottom part of score box-->
+            <div class="row more">
+              <div class="more-btn-container">
+                <a id ="dance" class="more-btn" href="#dance">Details</a>
+                
+                <!--what toggles down-->
+                <ul class="more-menu">
+                  <li>A lie is a lie no matter what the reason. You deserve to hear the truth and to have the truth spoken about you. Your happiness matter. You aren't a mind reader, there is no way for you to guess the truth. It hurts natually when you have to lie to cover up imbarassing stories that happend with an abusive partner.</li>
+                  
+                </ul>
+              </div>
+              
+              <!--right side of bottom of score box-->
+              <div class="star">
+                <span class="notification glyphicon glyphicon-star-empty"></span>
+              </div>
+          </div>
+      </div>
+
+
+
 				</div>
 				</div>
 			</div>
@@ -193,10 +217,27 @@
     $('.notification-menu').toggle();
   });
   
-  $('.post .btn').click(function() {
-    $(this).toggleClass('btn-like');
+
+    //More togggles down
+  $(".more-btn").click(function(){
+    $(this).next().toggle();
   });
-}; $(document).ready(main); 
+      //$(".more-menu").toggle();
+ 
+  //toggle down share-menu
+  $(".share").click(function(){
+    $(this).next().toggle();
+   // $(".share-menu").toggle();
+  });
+  
+  //add class to "notification glyphicon glyphicon-bell 
+  $(".notification").click(function(){
+    $(this).toggleClass("active");
+  });
+
+ 
+}; 
+$(document).ready(main); 
 </script>
 
 	</body>
